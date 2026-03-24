@@ -4,8 +4,13 @@
 - [x] Leer y entender `claude.md`, `PURC_Plan_Desarrollo_IA_V2.md`, `Flujo_Core_PURC.md`
 - [x] Diseñar esquema SQL completo (8 tablas con Multi-Tenant, PostGIS, Upvotes, Magic Link)
 - [x] Definir comandos exactos para inicializar `purc-mobile` (Expo) y `purc-web` (Next.js)
-- [ ] Resolver las 5 preguntas pendientes con los fundadores
-- [ ] Ejecutar los comandos de creación de ambos proyectos
+- [x] Resolver las preguntas pendientes con los fundadores
+- [x] Crear organización GitHub `Bramartechnology` con ambos miembros
+- [x] Crear repositorio `purc-docs` y subir documentación
+- [x] Crear repositorio `purc-mobile` (vacío, listo para inicializar Expo)
+- [x] Crear repositorio `purc-web` (vacío, listo para inicializar Next.js)
+- [ ] Inicializar proyecto Expo dentro de `purc-mobile`
+- [ ] Inicializar proyecto Next.js dentro de `purc-web`
 
 ## Fase 1: Setup de Supabase y Repositorios (Semanas 1-2)
 - [ ] Crear cuenta Supabase y proyecto "PURC"
