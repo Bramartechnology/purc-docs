@@ -1,5 +1,5 @@
 # PURC - Lista de Tareas (Todo)
-*Última actualización: 2026-03-24 por Martin (Sesión 1)*
+*Última actualización: 2026-03-25 por Martin (Sesión 2)*
 
 ## Fase 0: Planificación y Arquitectura — COMPLETADA
 - [x] Leer y entender `claude.md`, `PURC_Plan_Desarrollo_IA_V2.md`, `Flujo_Core_PURC.md`
@@ -11,6 +11,7 @@
 - [x] Crear repositorio `purc-mobile` (vacío, listo para inicializar Expo)
 - [x] Crear repositorio `purc-web` (vacío, listo para inicializar Next.js)
 - [x] Inicializar proyecto Expo dentro de `purc-mobile`
+- [x] Downgrade de Expo SDK 55 → SDK 54 (compatibilidad con Expo Go del App Store)
 - [x] Inicializar proyecto Next.js dentro de `purc-web`
 
 ## Fase 1: Setup de Supabase y Repositorios — EN PROGRESO (80% completada)

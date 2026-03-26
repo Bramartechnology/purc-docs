@@ -28,4 +28,6 @@
   - `purc-web/` → Dashboard municipal (Next.js + Tailwind)
 
 ## Bugs Resueltos
-*(Vacío por ahora — se llenará cuando empecemos a codear)*
+- **2026-03-25:** Expo SDK 55 NO es compatible con Expo Go en iOS (App Store). Se hizo downgrade a **Expo SDK 54** (`expo@^54.0.0`) con `npx expo install expo@^54.0.0 --fix` y luego `npx expo install --fix` para ajustar todas las dependencias. Funciona correctamente.
+- **2026-03-25:** Node.js debe ser >= 20.19.4 para Expo SDK 54. En Mac se actualiza con `brew update && brew upgrade node`.
+- **2026-03-25:** Si Expo Go dice "Project is incompatible", SIEMPRE verificar primero la versión del SDK en `package.json` (campo `"expo"`) y comparar con la versión soportada por Expo Go. NO instalar la última versión de Expo a ciegas.

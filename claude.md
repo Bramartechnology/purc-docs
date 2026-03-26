@@ -18,7 +18,7 @@ Para no generar conflictos en el código ni ensuciar tu contexto, el proyecto es
 Nuestro lema es **Cero Infraestructura Compleja (NoOps)**.
 *   **Base de Datos y Backend:** Supabase (PostgreSQL, PostGIS, Auth, Storage).
 *   **Frontend (Dashboard Web):** Next.js, Tailwind CSS, `shadcn/ui`, desplegado en Vercel.
-*   **Frontend (App Móvil):** React Native alojado en Expo (Managed Workflow).
+*   **Frontend (App Móvil):** React Native alojado en Expo SDK 54 (Managed Workflow). **IMPORTANTE:** No usar SDK 55+, Expo Go del App Store solo soporta SDK 54.
 
 ### Tecnologías PROHIBIDAS:
 Docker, Nginx, AWS EC2, Kubernetes, Redis, Reverse Proxy, o cualquier servidor autogestionado.
@@ -47,11 +47,11 @@ Para evitar que ambos desarrolladores tropecemos dos veces con la misma piedra:
 *   Tras resolver un bug difícil o tomar una decisión arquitectónica clave, tu deber es **actualizar obligatoriamente** `tasks/lessons.md` con ese aprendizaje.
 *   Tu primer paso en cualquier sesión (después de leer este archivo) será revisar los aprendizajes en `tasks/lessons.md` para no repetir los mismos errores.
 
-## 7. Estado Actual del Proyecto (Actualizado: 2026-03-24)
+## 7. Estado Actual del Proyecto (Actualizado: 2026-03-25)
 
 ### Lo que YA está hecho:
 - Base de datos completa en Supabase (8 tablas + índices + triggers + RLS + Realtime)
-- Proyecto `purc-mobile` inicializado con Expo + TypeScript + todas las dependencias (Supabase, navegación, cámara, GPS, mapas)
+- Proyecto `purc-mobile` inicializado con Expo SDK 54 + TypeScript + todas las dependencias (Supabase, navegación, cámara, GPS, mapas)
 - Proyecto `purc-web` inicializado con Next.js + Tailwind + todas las dependencias (Supabase, Leaflet, Recharts)
 - Conexión a Supabase configurada en ambos proyectos (`src/lib/supabase.ts`)
 - Tipos TypeScript de las 8 tablas en ambos proyectos (`src/types/database.ts`)
